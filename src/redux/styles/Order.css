@@ -1,0 +1,40 @@
+.orders-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-item img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.order-item h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.order-item p {
+  font-size: 1rem;
+  color: #ff5733;
+  font-weight: bold;
+}

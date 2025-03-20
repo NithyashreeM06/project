@@ -1,0 +1,54 @@
+/* Full MERN Stack E-Commerce Website - Blogs Page CSS */
+
+/* 📌 Frontend - src/styles/Blogs.css */
+.blogs {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .blogs h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-item {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .blog-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+  }
+  
+  .blog-item p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
